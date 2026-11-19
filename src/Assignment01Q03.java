@@ -7,11 +7,11 @@ public class Assignment01Q03 {
         // TODO: Replace this code with the correct Fibonacci sequence
         ////////////////////////////////////////////////////////////////
         int numOdd = 0;
-        int prev1 = 1; 
-        int prev2 = 1; 
+        long prev1 = 1; 
+        long prev2 = 1; 
         
         for (int i = 0; i < x; i++) {
-            int currentFibo;
+            long currentFibo;
             
             if (i == 0) {
                 currentFibo = prev1;
